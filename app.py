@@ -22,4 +22,8 @@ def scrape():
    return redirect("http://localhost:5000/", code=302)
    
    if __name__ == "__main__":
+<<<<<<< HEAD
       app.run(debug=True)
+=======
+      app.run()
+>>>>>>> 48fd4b821637c063f23052f057212b5760d5512d
